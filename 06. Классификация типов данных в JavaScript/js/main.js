@@ -60,4 +60,4 @@ console.log(obj[name]); // undefined
 
 // Массивы
 let arr = ['plum.png', 'orange.jpg', 'apple.bmp', 6, {}, []];
-console.log(arr[1]); // orage.jpg
+console.log(arr[1]); // orange.jpg
