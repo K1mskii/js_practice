@@ -32,4 +32,4 @@ console.log(Math.round(num)); // 12 - округлилось до ближайш
 
 const test = "12.2px";
 console.log(parseInt(test)); // 12 - стал целым цисловым типом данных
-console.log(parseFloat(test));
+console.log(parseFloat(test)); // 12.2
