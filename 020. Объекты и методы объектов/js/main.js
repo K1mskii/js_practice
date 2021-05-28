@@ -20,16 +20,14 @@ options.makeTest();
 
 // Деструктуризация
 const {border,bg} = options.colors;
-console.log(options.colors);
 console.log(border);
 
-
+// Вывод name
 console.log(options.name);
 
 // Удаление из объекта
 delete options.name;
 console.log(options);
-
 
 // Перебираем в объекте
 let counter = 0;
