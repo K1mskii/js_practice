@@ -1,0 +1,112 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.btn {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #232323;
+    border: none;
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.main {
+    margin: 15% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.add {
+    background-color: #fff;
+}
+
+.title {
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.box {
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.circles {
+    margin-top: 50px;
+    display: flex;
+}
+
+.circle {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.circle:not(:last-child) {
+    margin-right: 15px;
+}
+
+.hearts {
+    margin-top: 50px;
+}
+
+.heart {
+    background-color: red;
+    display: inline-block;
+    height: 30px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
+}
+.heart:not(:last-child) {
+    margin-right: 15px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+}
+
+.heart:before {
+    top: -15px;
+    left: 0;
+}
+
+.heart:after {
+    left: 15px;
+    top: 0;
+}
+
+.click {
+    margin: 50px auto;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease 0;
+}
